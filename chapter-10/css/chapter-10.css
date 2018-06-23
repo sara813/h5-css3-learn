@@ -1,0 +1,72 @@
+html{
+    font-size: 100%;
+    /* min-height: 100%; */
+}
+
+body{
+    font-family: Geneva,Tahoma,Verdana,sans-serif;
+    color: blue;
+    background-color: #fff;
+    background-image: url(../img/sky.png);
+    background-repeat:repeat-x;
+    background-position: left bottom;
+    /* background-attachment: fixed; */
+}
+
+h1,
+h2 {
+    font-family: "Gill Sans","Gill Sans MT", Calibri, sans-serif;
+}
+
+h1{
+    font-size: 2.1875rem;
+}
+
+h2{
+    font-size: 1.75rem;
+    background-color: #eaebef;
+}
+
+.architect {
+    background-color: #fff;
+    padding: 1.5rem 1.75rem;
+}
+
+.intro {
+    background-color: #686a63;
+    color: #fff;
+    line-height: 1.45;
+    padding: 1px 1.875rem .7rem;
+    /* background-color: 0.8; */
+}
+
+em,
+a:link,
+.intro .subhead{
+    font-weight: bold;
+}
+
+.intro .subhead{
+    font-size: 1.125rem;
+}
+
+.intro p {
+    font-size: 1.0625rem;
+}
+
+.project p {
+    font-size: 0.9375rem;
+}
+
+.test {
+    background-image: url(../img/bg-pattern.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-attachment: local;
+    height: 100px;
+    overflow: auto;
+}
+
+.test p{
+    height: 600px;
+}
