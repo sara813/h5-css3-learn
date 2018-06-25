@@ -14,13 +14,25 @@ a:hover {
 
 .documents {
     list-style: none;
+    /* list-style-type:circle; */
     margin-left: 0;
     margin-top: 0;
     padding-left: 0;
+    border: 1px solid red;
+    outline: 1px solid blue;
+    list-style: circle inside url(../img/checkmark.png);
+    /* margin-left: 10px; */
+    /* list-style-position: inside; */
 }
 
 .documents li {
     margin-top: .45em;
+    /* background: url(../img/checkmark.png) no-repeat 0 0; */
+    border: 1px solid green;
+    /* background-clip: content-box; */
+    /* padding-left: 20px; */
+    margin-left: 10px;
+    
 }
 
 .icon {
