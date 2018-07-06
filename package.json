@@ -1,0 +1,24 @@
+{
+  "name": "h5css3learn",
+  "version": "1.0.0",
+  "description": "my first learning",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sara813/h5-css3-learn.git"
+  },
+  "author": "huangfengnv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sara813/h5-css3-learn/issues"
+  },
+  "homepage": "https://github.com/sara813/h5-css3-learn#readme"
+}
